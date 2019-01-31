@@ -4,6 +4,20 @@ describe('the enhancer module', () => {
 
   describe('the success function', () => {
 
+    test('succeeds item enhancement', () => {
+      expect(enhancer.success({
+        name: 'rusted longsword',
+        type: 'weapon',
+        durability: 46,
+        enhancement: 0
+      })).toBe({
+        name: 'rusted longsword',
+        type: 'weapon',
+        durability: 46,
+        enhancement: 1
+      });
+    });
+
   });
 
   describe('the fail function', () => {
