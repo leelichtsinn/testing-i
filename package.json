@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watch",
+    "test": "jest --watch"
   },
   "repository": "git@github.com:leelichtsinn/testing-i.git",
   "author": "Lee Lichtsinn <lee.lichtsinn@gmail.com>",
